@@ -1,7 +1,6 @@
 # CRIMEX-Crime-Reporting-and-Management-System-
 A role-based crime reporting &amp; case management platform with multiple dashboards, case lifecycle tracking, background search, hotspot analysis, and an AI-powered RAG backend built with React + Vite and Python.
 
-```markdown
 # CRIMEX — Crime Reporting & Management System
 
 > A modern, role-based crime reporting and case management platform designed to improve public safety. Citizens can report incidents quickly, Law Enforcement Officers (LEOs) manage their assigned cases, Station Admins oversee the full station workload, and System Admins control user access — all from purpose-built dashboards.
@@ -65,44 +64,42 @@ A role-based crime reporting &amp; case management platform with multiple dashbo
 
 ## Project Structure
 
-```
-CRIMEX/
-├── index.html
-├── vite.config.js
-├── tailwind.config.js
-├── postcss.config.cjs
-├── package.json
-└── src/
-    ├── App.jsx                  # Root router
-    ├── main.jsx                 # Entry point
-    ├── components/              # Shared UI components
-    │   ├── Layout.jsx
-    │   ├── Sidebar.jsx
-    │   ├── Topbar.jsx
-    │   ├── StatCard.jsx
-    │   ├── DataTable.jsx
-    │   ├── Modal.jsx
-    │   └── ...
-    ├── contexts/
-    │   └── AuthContext.jsx      # JWT auth state & helpers
-    ├── pages/
-    │   ├── public/              # Landing page
-    │   ├── auth/                # Login, Signup, ForgotPassword
-    │   ├── officer/             # LEO dashboards & tools
-    │   ├── station/             # Station admin views
-    │   └── admin/               # System admin views
-    ├── routes/
-    │   └── ProtectedRoute.jsx   # Role-based route guard
-    ├── services/
-    │   ├── api.js               # Axios instance
-    │   └── mock.js              # Mock API adapter
-    └── utils/
-        ├── constants.js         # Roles, statuses, status flow
-        ├── rag_pipeline.py      # Hybrid BM25 + FAISS RAG pipeline
-        ├── streamlit_app.py     # Streamlit AI demo
-        ├── evaluate.py          # RAG evaluation
-        └── ...
-```
+    CRIMEX/
+    ├── index.html
+    ├── vite.config.js
+    ├── tailwind.config.js
+    ├── postcss.config.cjs
+    ├── package.json
+    └── src/
+        ├── App.jsx                  # Root router
+        ├── main.jsx                 # Entry point
+        ├── components/              # Shared UI components
+        │   ├── Layout.jsx
+        │   ├── Sidebar.jsx
+        │   ├── Topbar.jsx
+        │   ├── StatCard.jsx
+        │   ├── DataTable.jsx
+        │   ├── Modal.jsx
+        │   └── ...
+        ├── contexts/
+        │   └── AuthContext.jsx      # JWT auth state & helpers
+        ├── pages/
+        │   ├── public/              # Landing page
+        │   ├── auth/                # Login, Signup, ForgotPassword
+        │   ├── officer/             # LEO dashboards & tools
+        │   ├── station/             # Station admin views
+        │   └── admin/               # System admin views
+        ├── routes/
+        │   └── ProtectedRoute.jsx   # Role-based route guard
+        ├── services/
+        │   ├── api.js               # Axios instance
+        │   └── mock.js              # Mock API adapter
+        └── utils/
+            ├── constants.js         # Roles, statuses, status flow
+            ├── rag_pipeline.py      # Hybrid BM25 + FAISS RAG pipeline
+            ├── streamlit_app.py     # Streamlit AI demo
+            ├── evaluate.py          # RAG evaluation
+            └── ...
 
 ---
 
@@ -128,20 +125,16 @@ Access to protected routes is enforced by `ProtectedRoute.jsx`, which checks the
 
 ### Installation
 
-```bash
-# Clone the repository
-git clone https://github.com/your-username/crimex.git
-cd crimex
+    # Clone the repository
+    git clone https://github.com/your-username/crimex.git
+    cd crimex
 
-# Install dependencies
-npm install
-```
+    # Install dependencies
+    npm install
 
 ### Run the Development Server
 
-```bash
-npm run dev
-```
+    npm run dev
 
 The app will open automatically at `http://localhost:5173`.
 
@@ -168,16 +161,12 @@ The utils directory contains a Python-based **Retrieval-Augmented Generation (RA
 
 ### Python Setup
 
-```bash
-cd src/utils
-pip install -r requirements.txt
-```
+    cd src/utils
+    pip install -r requirements.txt
 
 ### Run the Streamlit App
 
-```bash
-streamlit run streamlit_app.py
-```
+    streamlit run streamlit_app.py
 
 ---
 
