@@ -1,11 +1,6 @@
-# CRIMEX-Crime-Reporting-and-Management-System-
-A role-based crime reporting &amp; case management platform with multiple dashboards, case lifecycle tracking, background search, hotspot analysis, and an AI-powered RAG backend built with React + Vite and Python.
-  
-
-```markdown
 # CRIMEX — Crime Reporting & Management System
 
-> A modern, role-based crime reporting and case management platform designed to improve public safety. Citizens can report incidents quickly, Law Enforcement Officers (LEOs) manage their assigned cases, Station Admins oversee the full station workload, and System Admins control user access — all from purpose-built dashboards.
+> A modern, role-based crime reporting and case management platform with multiple dashboards, case lifecycle tracking, background search, hotspot analysis, and an AI-powered RAG backend built with React + Vite and Python designed to improve public safety. Citizens can report incidents quickly, Law Enforcement Officers (LEOs) manage their assigned cases, Station Admins oversee the full station workload, and System Admins control user access all from purpose-built dashboards.
 
 ---
 
@@ -67,7 +62,7 @@ A role-based crime reporting &amp; case management platform with multiple dashbo
 
 ## Project Structure
 
-```
+```text
 CRIMEX/
 ├── index.html
 ├── package.json
@@ -202,7 +197,7 @@ The app will open automatically at `http://localhost:5173`.
 
 The utils directory contains a Python-based Retrieval-Augmented Generation (RAG) pipeline for intelligent case-related queries.
 
-- rag_pipeline.py — hybrid retrieval combining BM25 sparse search and FAISS dense search with a Seq2Seq generation step
+- `rag_pipeline.py` — hybrid retrieval combining BM25 sparse search and FAISS dense search with a Seq2Seq generation step
 - `preprocess.py` — ingests and indexes raw case documents
 - `build_index.py` — builds the FAISS vector index
 - `evaluate.py` and `eval_utils.py` — evaluate retrieval quality with custom metrics
