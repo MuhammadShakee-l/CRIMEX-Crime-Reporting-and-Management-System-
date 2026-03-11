@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Auth Debug Test</title>
+</head>
+<body>
+    <h1>CRIMEX Auth Debug</h1>
+    <button id="testLogin">Test Login</button>
+    <pre id="output"></pre>
+
+    <script type="module">
+        import { supabase } from './src/lib/supabase.js'
+        import authService from './src/services/authService.js'
+
+        const output = document.getElementById('output')
+        
+        document.getElementById('testLogin').addEventListener('click', async () => {
+            output.textContent = 'Testing login...\n'
+            
+            try {
+                // Test login
+                const result = await authService.loginWithCNIC('1234567890123', 'Admin@123456')
+                output.textContent += 'Login Result:\n' + JSON.stringify(result, null, 2)
+                
+                // Get profile
+                const profile = await authService.getUserProfile(result.user.id)
+                output.textContent += '\n\nProfile Result:\n' + JSON.stringify(profile, null, 2)
+                
+            } catch (error) {
+                output.textContent += '\n\nERROR:\n' + error.message + '\n' + error.stack
+            }
+        })
+    </script>
+</body>
+</html>

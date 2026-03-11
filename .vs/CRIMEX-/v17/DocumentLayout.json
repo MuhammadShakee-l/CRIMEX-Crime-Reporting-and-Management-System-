@@ -1,0 +1,741 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\CRIMEX-\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CRIMEX-\\src\\services\\casesService.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\services\\casesService.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CRIMEX-\\src\\pages\\station\\UnassignedCases.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\station\\UnassignedCases.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CRIMEX-\\src\\services\\leoService.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\services\\leoService.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CRIMEX-\\src\\pages\\officer\\CaseDetail.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\officer\\CaseDetail.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CRIMEX-\\src\\App.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\App.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CRIMEX-\\src\\pages\\officer\\caseFullDetail.jsx||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\officer\\caseFullDetail.jsx||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CRIMEX-\\src\\pages\\officer\\CasesList.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\officer\\CasesList.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CRIMEX-\\src\\pages\\officer\\Dashboard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\officer\\Dashboard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CRIMEX-\\src\\services\\userService.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\services\\userService.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CRIMEX-\\src\\routes\\ProtectedRoute.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\routes\\ProtectedRoute.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CRIMEX-\\src\\services\\authService.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\services\\authService.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CRIMEX-\\src\\lib\\supabase.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\lib\\supabase.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CRIMEX-\\src\\pages\\admin\\AddUser.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\admin\\AddUser.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CRIMEX-\\src\\pages\\admin\\UsersList.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\admin\\UsersList.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CRIMEX-\\src\\components\\EditUserModal.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\EditUserModal.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CRIMEX-\\src\\pages\\admin\\Dashboard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\admin\\Dashboard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CRIMEX-\\src\\services\\mock.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\services\\mock.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CRIMEX-\\src\\pages\\station\\StationLeos.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\station\\StationLeos.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CRIMEX-\\src\\pages\\station\\Workload.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\station\\Workload.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CRIMEX-\\src\\pages\\station\\AssignedCases.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\station\\AssignedCases.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CRIMEX-\\src\\services\\adminService.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\services\\adminService.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CRIMEX-\\src\\pages\\station\\StationUsers.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\station\\StationUsers.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CRIMEX-\\src\\pages\\station\\CaseDetail.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\station\\CaseDetail.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CRIMEX-\\src\\pages\\station\\Dashboard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\station\\Dashboard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CRIMEX-\\update_role_tables.sql||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:update_role_tables.sql||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CRIMEX-\\fix_rls_for_login.sql||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:fix_rls_for_login.sql||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CRIMEX-\\add_insert_policies.sql||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:add_insert_policies.sql||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CRIMEX-\\src\\utils\\queryHelpers.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\utils\\queryHelpers.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CRIMEX-\\src\\utils\\authPaths.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\utils\\authPaths.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CRIMEX-\\src\\utils\\constants.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\utils\\constants.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CRIMEX-\\src\\services\\api.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\services\\api.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CRIMEX-\\src\\contexts\\AuthContext.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\contexts\\AuthContext.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CRIMEX-\\src\\styles\\global.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\styles\\global.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CRIMEX-\\src\\pages\\auth\\Login.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\auth\\Login.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CRIMEX-\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CRIMEX-\\src\\components\\Table.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\Table.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CRIMEX-\\src\\components\\Sidebar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\Sidebar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CRIMEX-\\src\\components\\Modal.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\Modal.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CRIMEX-\\src\\components\\RoleSidebar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\RoleSidebar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CRIMEX-\\src\\components\\Layout.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\Layout.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CRIMEX-\\src\\components\\DataTable.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\components\\DataTable.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CRIMEX-\\src\\pages\\public\\Homepage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pages\\public\\Homepage.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CRIMEX-\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.env||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CaseFullDetail.jsx",
+              "DocumentMoniker": "D:\\CRIMEX-\\src\\pages\\officer\\CaseFullDetail.jsx",
+              "RelativeDocumentMoniker": "src\\pages\\officer\\CaseFullDetail.jsx",
+              "ToolTip": "D:\\CRIMEX-\\src\\pages\\officer\\CaseFullDetail.jsx",
+              "RelativeToolTip": "src\\pages\\officer\\CaseFullDetail.jsx",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAcwGQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-12-10T07:36:30.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CasesList.jsx",
+              "DocumentMoniker": "D:\\CRIMEX-\\src\\pages\\officer\\CasesList.jsx",
+              "RelativeDocumentMoniker": "src\\pages\\officer\\CasesList.jsx",
+              "ToolTip": "D:\\CRIMEX-\\src\\pages\\officer\\CasesList.jsx",
+              "RelativeToolTip": "src\\pages\\officer\\CasesList.jsx",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAcwHUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-12-10T06:13:49.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "leoService.js",
+              "DocumentMoniker": "D:\\CRIMEX-\\src\\services\\leoService.js",
+              "RelativeDocumentMoniker": "src\\services\\leoService.js",
+              "ToolTip": "D:\\CRIMEX-\\src\\services\\leoService.js",
+              "RelativeToolTip": "src\\services\\leoService.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-12-09T19:12:48.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.jsx",
+              "DocumentMoniker": "D:\\CRIMEX-\\src\\App.jsx",
+              "RelativeDocumentMoniker": "src\\App.jsx",
+              "ToolTip": "D:\\CRIMEX-\\src\\App.jsx",
+              "RelativeToolTip": "src\\App.jsx",
+              "ViewState": "AgIAADIAAAAAAAAAAAAcwE0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-12-09T12:20:31.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CaseDetail.jsx",
+              "DocumentMoniker": "D:\\CRIMEX-\\src\\pages\\officer\\CaseDetail.jsx",
+              "RelativeDocumentMoniker": "src\\pages\\officer\\CaseDetail.jsx",
+              "ToolTip": "D:\\CRIMEX-\\src\\pages\\officer\\CaseDetail.jsx",
+              "RelativeToolTip": "src\\pages\\officer\\CaseDetail.jsx",
+              "ViewState": "AgIAAGABAAAAAAAAAAAcwHsBAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-12-09T20:31:54.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UnassignedCases.jsx",
+              "DocumentMoniker": "D:\\CRIMEX-\\src\\pages\\station\\UnassignedCases.jsx",
+              "RelativeDocumentMoniker": "src\\pages\\station\\UnassignedCases.jsx",
+              "ToolTip": "D:\\CRIMEX-\\src\\pages\\station\\UnassignedCases.jsx",
+              "RelativeToolTip": "src\\pages\\station\\UnassignedCases.jsx",
+              "ViewState": "AgIAAMkAAAAAAAAAAAAcwOQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-12-09T19:14:28.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "casesService.js",
+              "DocumentMoniker": "D:\\CRIMEX-\\src\\services\\casesService.js",
+              "RelativeDocumentMoniker": "src\\services\\casesService.js",
+              "ToolTip": "D:\\CRIMEX-\\src\\services\\casesService.js",
+              "RelativeToolTip": "src\\services\\casesService.js",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAcwLQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-12-09T19:12:03.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Dashboard.jsx",
+              "DocumentMoniker": "D:\\CRIMEX-\\src\\pages\\officer\\Dashboard.jsx",
+              "RelativeDocumentMoniker": "src\\pages\\officer\\Dashboard.jsx",
+              "ToolTip": "D:\\CRIMEX-\\src\\pages\\officer\\Dashboard.jsx",
+              "RelativeToolTip": "src\\pages\\officer\\Dashboard.jsx",
+              "ViewState": "AgIAADUAAAAAAAAAAAAcwFAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-12-09T12:16:07.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "userService.js",
+              "DocumentMoniker": "D:\\CRIMEX-\\src\\services\\userService.js",
+              "RelativeDocumentMoniker": "src\\services\\userService.js",
+              "ToolTip": "D:\\CRIMEX-\\src\\services\\userService.js",
+              "RelativeToolTip": "src\\services\\userService.js",
+              "ViewState": "AgIAAMgAAAAAAAAAAAAuwOEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-12-09T10:48:29.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "authService.js",
+              "DocumentMoniker": "D:\\CRIMEX-\\src\\services\\authService.js",
+              "RelativeDocumentMoniker": "src\\services\\authService.js",
+              "ToolTip": "D:\\CRIMEX-\\src\\services\\authService.js",
+              "RelativeToolTip": "src\\services\\authService.js",
+              "ViewState": "AgIAADgBAAAAAAAAAAAuwFEBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-12-09T10:48:34.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "supabase.js",
+              "DocumentMoniker": "D:\\CRIMEX-\\src\\lib\\supabase.js",
+              "RelativeDocumentMoniker": "src\\lib\\supabase.js",
+              "ToolTip": "D:\\CRIMEX-\\src\\lib\\supabase.js",
+              "RelativeToolTip": "src\\lib\\supabase.js",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAuwDcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-12-09T18:28:49.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AddUser.jsx",
+              "DocumentMoniker": "D:\\CRIMEX-\\src\\pages\\admin\\AddUser.jsx",
+              "RelativeDocumentMoniker": "src\\pages\\admin\\AddUser.jsx",
+              "ToolTip": "D:\\CRIMEX-\\src\\pages\\admin\\AddUser.jsx",
+              "RelativeToolTip": "src\\pages\\admin\\AddUser.jsx",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAcwKcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-12-09T12:14:56.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UsersList.jsx",
+              "DocumentMoniker": "D:\\CRIMEX-\\src\\pages\\admin\\UsersList.jsx",
+              "RelativeDocumentMoniker": "src\\pages\\admin\\UsersList.jsx",
+              "ToolTip": "D:\\CRIMEX-\\src\\pages\\admin\\UsersList.jsx",
+              "RelativeToolTip": "src\\pages\\admin\\UsersList.jsx",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAcwLsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-12-09T12:14:06.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProtectedRoute.jsx",
+              "DocumentMoniker": "D:\\CRIMEX-\\src\\routes\\ProtectedRoute.jsx",
+              "RelativeDocumentMoniker": "src\\routes\\ProtectedRoute.jsx",
+              "ToolTip": "D:\\CRIMEX-\\src\\routes\\ProtectedRoute.jsx",
+              "RelativeToolTip": "src\\routes\\ProtectedRoute.jsx",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAuwCcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-12-09T10:58:26.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EditUserModal.jsx",
+              "DocumentMoniker": "D:\\CRIMEX-\\src\\components\\EditUserModal.jsx",
+              "RelativeDocumentMoniker": "src\\components\\EditUserModal.jsx",
+              "ToolTip": "D:\\CRIMEX-\\src\\components\\EditUserModal.jsx",
+              "RelativeToolTip": "src\\components\\EditUserModal.jsx",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAcwIcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-12-09T23:26:13.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Dashboard.jsx",
+              "DocumentMoniker": "D:\\CRIMEX-\\src\\pages\\admin\\Dashboard.jsx",
+              "RelativeDocumentMoniker": "src\\pages\\admin\\Dashboard.jsx",
+              "ToolTip": "D:\\CRIMEX-\\src\\pages\\admin\\Dashboard.jsx",
+              "RelativeToolTip": "src\\pages\\admin\\Dashboard.jsx",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAcwFkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-12-09T12:14:36.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "mock.js",
+              "DocumentMoniker": "D:\\CRIMEX-\\src\\services\\mock.js",
+              "RelativeDocumentMoniker": "src\\services\\mock.js",
+              "ToolTip": "D:\\CRIMEX-\\src\\services\\mock.js",
+              "RelativeToolTip": "src\\services\\mock.js",
+              "ViewState": "AgIAAOUAAAAAAAAAAAAcwAABAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-12-09T12:30:57.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "StationLeos.jsx",
+              "DocumentMoniker": "D:\\CRIMEX-\\src\\pages\\station\\StationLeos.jsx",
+              "RelativeDocumentMoniker": "src\\pages\\station\\StationLeos.jsx",
+              "ToolTip": "D:\\CRIMEX-\\src\\pages\\station\\StationLeos.jsx",
+              "RelativeToolTip": "src\\pages\\station\\StationLeos.jsx",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAcwJYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-12-09T12:16:50.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Workload.jsx",
+              "DocumentMoniker": "D:\\CRIMEX-\\src\\pages\\station\\Workload.jsx",
+              "RelativeDocumentMoniker": "src\\pages\\station\\Workload.jsx",
+              "ToolTip": "D:\\CRIMEX-\\src\\pages\\station\\Workload.jsx",
+              "RelativeToolTip": "src\\pages\\station\\Workload.jsx",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAcwKEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-12-09T18:47:35.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AssignedCases.jsx",
+              "DocumentMoniker": "D:\\CRIMEX-\\src\\pages\\station\\AssignedCases.jsx",
+              "RelativeDocumentMoniker": "src\\pages\\station\\AssignedCases.jsx",
+              "ToolTip": "D:\\CRIMEX-\\src\\pages\\station\\AssignedCases.jsx",
+              "RelativeToolTip": "src\\pages\\station\\AssignedCases.jsx",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAcwIIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-12-09T18:43:58.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "adminService.js",
+              "DocumentMoniker": "D:\\CRIMEX-\\src\\services\\adminService.js",
+              "RelativeDocumentMoniker": "src\\services\\adminService.js",
+              "ToolTip": "D:\\CRIMEX-\\src\\services\\adminService.js",
+              "RelativeToolTip": "src\\services\\adminService.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-12-09T19:10:53.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "StationUsers.jsx",
+              "DocumentMoniker": "D:\\CRIMEX-\\src\\pages\\station\\StationUsers.jsx",
+              "RelativeDocumentMoniker": "src\\pages\\station\\StationUsers.jsx",
+              "ToolTip": "D:\\CRIMEX-\\src\\pages\\station\\StationUsers.jsx",
+              "RelativeToolTip": "src\\pages\\station\\StationUsers.jsx",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAAH4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-12-09T12:16:35.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CaseDetail.jsx",
+              "DocumentMoniker": "D:\\CRIMEX-\\src\\pages\\station\\CaseDetail.jsx",
+              "RelativeDocumentMoniker": "src\\pages\\station\\CaseDetail.jsx",
+              "ToolTip": "D:\\CRIMEX-\\src\\pages\\station\\CaseDetail.jsx",
+              "RelativeToolTip": "src\\pages\\station\\CaseDetail.jsx",
+              "ViewState": "AgIAALoAAAAAAAAAAAAcwNUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-12-09T20:39:06.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Dashboard.jsx",
+              "DocumentMoniker": "D:\\CRIMEX-\\src\\pages\\station\\Dashboard.jsx",
+              "RelativeDocumentMoniker": "src\\pages\\station\\Dashboard.jsx",
+              "ToolTip": "D:\\CRIMEX-\\src\\pages\\station\\Dashboard.jsx",
+              "RelativeToolTip": "src\\pages\\station\\Dashboard.jsx",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAcwGkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-12-09T12:18:28.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "update_role_tables.sql",
+              "DocumentMoniker": "D:\\CRIMEX-\\update_role_tables.sql",
+              "RelativeDocumentMoniker": "update_role_tables.sql",
+              "ToolTip": "D:\\CRIMEX-\\update_role_tables.sql",
+              "RelativeToolTip": "update_role_tables.sql",
+              "ViewState": "AgIAACQAAAAAAAAAAAAuwEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-12-09T18:55:51.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "fix_rls_for_login.sql",
+              "DocumentMoniker": "D:\\CRIMEX-\\fix_rls_for_login.sql",
+              "RelativeDocumentMoniker": "fix_rls_for_login.sql",
+              "ToolTip": "D:\\CRIMEX-\\fix_rls_for_login.sql",
+              "RelativeToolTip": "fix_rls_for_login.sql",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAuwHYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-12-09T18:54:55.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "add_insert_policies.sql",
+              "DocumentMoniker": "D:\\CRIMEX-\\add_insert_policies.sql",
+              "RelativeDocumentMoniker": "add_insert_policies.sql",
+              "ToolTip": "D:\\CRIMEX-\\add_insert_policies.sql",
+              "RelativeToolTip": "add_insert_policies.sql",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-12-09T18:54:30.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "queryHelpers.js",
+              "DocumentMoniker": "D:\\CRIMEX-\\src\\utils\\queryHelpers.js",
+              "RelativeDocumentMoniker": "src\\utils\\queryHelpers.js",
+              "ToolTip": "D:\\CRIMEX-\\src\\utils\\queryHelpers.js",
+              "RelativeToolTip": "src\\utils\\queryHelpers.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-12-09T18:53:59.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "authPaths.js",
+              "DocumentMoniker": "D:\\CRIMEX-\\src\\utils\\authPaths.js",
+              "RelativeDocumentMoniker": "src\\utils\\authPaths.js",
+              "ToolTip": "D:\\CRIMEX-\\src\\utils\\authPaths.js",
+              "RelativeToolTip": "src\\utils\\authPaths.js",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAcwBwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-12-09T18:53:40.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "api.js",
+              "DocumentMoniker": "D:\\CRIMEX-\\src\\services\\api.js",
+              "RelativeDocumentMoniker": "src\\services\\api.js",
+              "ToolTip": "D:\\CRIMEX-\\src\\services\\api.js",
+              "RelativeToolTip": "src\\services\\api.js",
+              "ViewState": "AgIAANwAAAAAAAAAAAAcwPcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-12-09T18:41:26.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "constants.js",
+              "DocumentMoniker": "D:\\CRIMEX-\\src\\utils\\constants.js",
+              "RelativeDocumentMoniker": "src\\utils\\constants.js",
+              "ToolTip": "D:\\CRIMEX-\\src\\utils\\constants.js",
+              "RelativeToolTip": "src\\utils\\constants.js",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAcwCMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-12-09T12:20:24.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "global.css",
+              "DocumentMoniker": "D:\\CRIMEX-\\src\\styles\\global.css",
+              "RelativeDocumentMoniker": "src\\styles\\global.css",
+              "ToolTip": "D:\\CRIMEX-\\src\\styles\\global.css",
+              "RelativeToolTip": "src\\styles\\global.css",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAAHYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-12-09T11:04:12.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AuthContext.jsx",
+              "DocumentMoniker": "D:\\CRIMEX-\\src\\contexts\\AuthContext.jsx",
+              "RelativeDocumentMoniker": "src\\contexts\\AuthContext.jsx",
+              "ToolTip": "D:\\CRIMEX-\\src\\contexts\\AuthContext.jsx",
+              "RelativeToolTip": "src\\contexts\\AuthContext.jsx",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAcwHAAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-12-09T10:58:04.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Sidebar.jsx",
+              "DocumentMoniker": "D:\\CRIMEX-\\src\\components\\Sidebar.jsx",
+              "RelativeDocumentMoniker": "src\\components\\Sidebar.jsx",
+              "ToolTip": "D:\\CRIMEX-\\src\\components\\Sidebar.jsx",
+              "RelativeToolTip": "src\\components\\Sidebar.jsx",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-12-09T12:19:27.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Table.jsx",
+              "DocumentMoniker": "D:\\CRIMEX-\\src\\components\\Table.jsx",
+              "RelativeDocumentMoniker": "src\\components\\Table.jsx",
+              "ToolTip": "D:\\CRIMEX-\\src\\components\\Table.jsx",
+              "RelativeToolTip": "src\\components\\Table.jsx",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-12-09T12:19:35.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "main.jsx",
+              "DocumentMoniker": "D:\\CRIMEX-\\src\\main.jsx",
+              "RelativeDocumentMoniker": "src\\main.jsx",
+              "ToolTip": "D:\\CRIMEX-\\src\\main.jsx",
+              "RelativeToolTip": "src\\main.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-12-09T12:20:44.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Login.jsx",
+              "DocumentMoniker": "D:\\CRIMEX-\\src\\pages\\auth\\Login.jsx",
+              "RelativeDocumentMoniker": "src\\pages\\auth\\Login.jsx",
+              "ToolTip": "D:\\CRIMEX-\\src\\pages\\auth\\Login.jsx",
+              "RelativeToolTip": "src\\pages\\auth\\Login.jsx",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAAAJgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-12-09T10:57:34.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Modal.jsx",
+              "DocumentMoniker": "D:\\CRIMEX-\\src\\components\\Modal.jsx",
+              "RelativeDocumentMoniker": "src\\components\\Modal.jsx",
+              "ToolTip": "D:\\CRIMEX-\\src\\components\\Modal.jsx",
+              "RelativeToolTip": "src\\components\\Modal.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-12-09T12:19:24.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "RoleSidebar.jsx",
+              "DocumentMoniker": "D:\\CRIMEX-\\src\\components\\RoleSidebar.jsx",
+              "RelativeDocumentMoniker": "src\\components\\RoleSidebar.jsx",
+              "ToolTip": "D:\\CRIMEX-\\src\\components\\RoleSidebar.jsx",
+              "RelativeToolTip": "src\\components\\RoleSidebar.jsx",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-12-09T12:19:16.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Layout.jsx",
+              "DocumentMoniker": "D:\\CRIMEX-\\src\\components\\Layout.jsx",
+              "RelativeDocumentMoniker": "src\\components\\Layout.jsx",
+              "ToolTip": "D:\\CRIMEX-\\src\\components\\Layout.jsx",
+              "RelativeToolTip": "src\\components\\Layout.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-12-09T12:19:11.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "DataTable.jsx",
+              "DocumentMoniker": "D:\\CRIMEX-\\src\\components\\DataTable.jsx",
+              "RelativeDocumentMoniker": "src\\components\\DataTable.jsx",
+              "ToolTip": "D:\\CRIMEX-\\src\\components\\DataTable.jsx",
+              "RelativeToolTip": "src\\components\\DataTable.jsx",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAAoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-12-09T12:19:01.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Homepage.jsx",
+              "DocumentMoniker": "D:\\CRIMEX-\\src\\pages\\public\\Homepage.jsx",
+              "RelativeDocumentMoniker": "src\\pages\\public\\Homepage.jsx",
+              "ToolTip": "D:\\CRIMEX-\\src\\pages\\public\\Homepage.jsx",
+              "RelativeToolTip": "src\\pages\\public\\Homepage.jsx",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAA8AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-12-09T12:16:21.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": ".env",
+              "DocumentMoniker": "D:\\CRIMEX-\\.env",
+              "RelativeDocumentMoniker": ".env",
+              "ToolTip": "D:\\CRIMEX-\\.env",
+              "RelativeToolTip": ".env",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-12-09T10:48:42.257Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

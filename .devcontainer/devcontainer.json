@@ -1,0 +1,14 @@
+{
+  "name": "CRIMEXmy Devcontainer",
+  "build": {
+    "dockerfile": "../Dockerfile"
+  },
+  "workspaceFolder": "/app",
+  "forwardPorts": [5173],
+  "postCreateCommand": "npm ci",
+  "settings": {},
+  "extensions": [
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint"
+  ]
+}

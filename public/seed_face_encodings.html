@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>CRIMEX — Seed Face Encodings</title>
+  <style>
+    body { font-family: system-ui; background: #0d1b16; color: #e9f7f0; max-width: 720px; margin: 2rem auto; padding: 0 1rem; }
+    h1 { font-size: 1.25rem; }
+    .status { padding: .5rem 1rem; border-radius: .5rem; margin: .5rem 0; font-size: .85rem; }
+    .ok  { background: #064e3b; }
+    .err { background: #7f1d1d; }
+    .warn { background: #78350f; }
+    button { padding: .5rem 1.5rem; border-radius: .5rem; border: none; background: #06C167; color: #fff; cursor: pointer; font-weight: 600; margin-top: .5rem; }
+    button:disabled { opacity: .4; cursor: not-allowed; }
+    #log { max-height: 400px; overflow-y: auto; font-family: monospace; font-size: .8rem; background: #111; padding: 1rem; border-radius: .5rem; margin-top: 1rem; }
+    input[type="file"] { margin: .5rem 0; }
+    label { display: block; margin-top: 1rem; font-size: .85rem; color: #aaa; }
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/face-api.js@0.22.2/dist/face-api.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+</head>
+<body>
+  <h1>Seed Face Encodings into criminal_records</h1>
+  <p style="font-size:.8rem;color:#aaa;">
+    This tool reads every <code>criminal_records</code> row that has a <code>photo_url</code>
+    but no <code>face_encoding</code>, downloads the photo, extracts a 128-dim face descriptor,
+    and writes it back.
+  </p>
+
+  <label>Supabase URL</label>
+  <input id="url" style="width:100%;padding:.4rem;border-radius:.25rem;border:1px solid #333;background:#1a1a1a;color:#fff;" placeholder="https://xxxx.supabase.co" />
+
+  <label>Supabase Anon Key</label>
+  <input id="key" style="width:100%;padding:.4rem;border-radius:.25rem;border:1px solid #333;background:#1a1a1a;color:#fff;" placeholder="eyJ..." />
+
+  <br />
+  <button id="run" onclick="run()">Run Seed</button>
+  <button id="runManual" onclick="document.getElementById('manualUpload').click()">Upload photo + add record manually</button>
+  <input type="file" id="manualUpload" accept="image/*" style="display:none" onchange="manualAdd(this)" />
+
+  <div id="log"></div>
+  <canvas id="c" style="display:none;"></canvas>
+
+  <script>
+    const log = (msg, cls = 'ok') => {
+      const d = document.getElementById('log')
+      d.innerHTML += `<div class="status ${cls}">${msg}</div>`
+      d.scrollTop = d.scrollHeight
+    }
+
+    let sb
+
+    async function run() {
+      const url = document.getElementById('url').value.trim()
+      const key = document.getElementById('key').value.trim()
+      if (!url || !key) return alert('Fill in Supabase URL and key')
+
+      document.getElementById('run').disabled = true
+      sb = supabase.createClient(url, key)
+
+      log('Loading face-api models…', 'warn')
+      await faceapi.nets.ssdMobilenetv1.loadFromUri('https://cdn.jsdelivr.net/npm/@vladmandic/face-api/model/')
+      await faceapi.nets.faceLandmark68Net.loadFromUri('https://cdn.jsdelivr.net/npm/@vladmandic/face-api/model/')
+      await faceapi.nets.faceRecognitionNet.loadFromUri('https://cdn.jsdelivr.net/npm/@vladmandic/face-api/model/')
+      log('Models loaded')
+
+      // Fetch records with photo but no encoding
+      const { data: rows, error } = await sb
+        .from('criminal_records')
+        .select('id, full_name, photo_url, face_encoding')
+        .not('photo_url', 'is', null)
+
+      if (error) return log('DB error: ' + error.message, 'err')
+
+      const todo = rows.filter(r => !r.face_encoding)
+      log(`Found ${rows.length} records with photos, ${todo.length} need encoding`)
+
+      for (const r of todo) {
+        try {
+          log(`Processing ${r.full_name} (${r.id})…`, 'warn')
+          const img = await faceapi.fetchImage(r.photo_url)
+          const det = await faceapi.detectSingleFace(img).withFaceLandmarks().withFaceDescriptor()
+          if (!det) { log(`  No face detected — skipped`, 'err'); continue }
+
+          const encoding = JSON.stringify(Array.from(det.descriptor))
+          const { error: upErr } = await sb
+            .from('criminal_records')
+            .update({ face_encoding: encoding })
+            .eq('id', r.id)
+
+          if (upErr) log(`  Update failed: ${upErr.message}`, 'err')
+          else log(`  Saved 128-dim encoding`)
+        } catch (e) {
+          log(`  Error: ${e.message}`, 'err')
+        }
+      }
+
+      log('Done!', 'ok')
+      document.getElementById('run').disabled = false
+    }
+
+    async function manualAdd(input) {
+      const file = input.files[0]
+      if (!file) return
+      const url = document.getElementById('url').value.trim()
+      const key = document.getElementById('key').value.trim()
+      if (!url || !key) return alert('Fill in Supabase URL and key first')
+
+      sb = sb || supabase.createClient(url, key)
+
+      log('Loading models for manual upload…', 'warn')
+      await faceapi.nets.ssdMobilenetv1.loadFromUri('https://cdn.jsdelivr.net/npm/@vladmandic/face-api/model/')
+      await faceapi.nets.faceLandmark68Net.loadFromUri('https://cdn.jsdelivr.net/npm/@vladmandic/face-api/model/')
+      await faceapi.nets.faceRecognitionNet.loadFromUri('https://cdn.jsdelivr.net/npm/@vladmandic/face-api/model/')
+
+      const imgEl = document.createElement('img')
+      imgEl.src = URL.createObjectURL(file)
+      await new Promise(r => imgEl.onload = r)
+
+      const det = await faceapi.detectSingleFace(imgEl).withFaceLandmarks().withFaceDescriptor()
+      if (!det) return log('No face detected in uploaded image', 'err')
+
+      const encoding = JSON.stringify(Array.from(det.descriptor))
+      log('Face encoding extracted. Copy this and save it to the face_encoding column:')
+      log(`<textarea style="width:100%;height:60px;font-size:10px;background:#222;color:#0f0;border:none;" readonly>${encoding}</textarea>`, 'ok')
+    }
+  </script>
+</body>
+</html>
